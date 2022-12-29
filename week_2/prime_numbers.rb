@@ -13,6 +13,14 @@
 # If the user gives a invalid input like -4
 # We will raise an `ArgumentError` exception to let the caller know that
 # their function arguments were incorrect.
-def prime_numbers(n:)
-  raise NotImplementedError # TODO
-end
+puts "enter a number"
+n == gets
+for i in 1..n
+  for j in 1..i
+    if i%j == 0
+      factor++
+    end
+  end
+    if factor == 2
+      print i " "
+ end
